@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(9, 18, 54);
+    margin: auto;
+}
+
+#album {
+    height: 70%;
+    width: 80%;
+    margin: 5% auto;
+    border: 2px double whitesmoke;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.picture {
+    height: 300px;
+    width: 300px;
+    margin-inline: 20px;
+    margin-top: 4%;
+
+    transform: translateX(-1000px);
+    display: inline-block;
+    border: 10px solid whitesmoke;
+    animation: mytejas 20s linear infinite;
+}
+
+@keyframes mytejas {
+    0% {
+        transform: translateX(-2400px);
+    }
+
+    100% {
+        transform: translateX(1000px);
+    }
+
+}
+
+.pic1 {
+    background-image: url(img\ \(1\).jpeg);
+    background-size: cover;
+    background-position: 10px;
+    background-repeat: no-repeat;
+}
+
+.pic9 {
+    background-image: url(img\ \(3\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic8 {
+    background-image: url(img\ \(5\).jpeg);
+
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic7 {
+    background-image: url(img\ \(4\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic6 {
+    background-image: url(img2\ \(3\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic5 {
+    background-image: url(img2\ \(2\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+}
+
+.pic4 {
+    background-image: url(img2\ \(5\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+
+.pic3 {
+    background-image: url(img3\ \(1\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic2 {
+    background-image: url(img2\ \(2\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic10 {
+    background-image: url(img3\ \(3\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pic11 {
+    background-image: url(img3\ \(2\).jpeg);
+    background-size: cover;
+    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
