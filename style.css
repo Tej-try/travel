@@ -16,12 +16,12 @@ body {
     height: 300px;
     width: 300px;
     margin-inline: 20px;
-    margin-top: 4%;
+    margin-top: 6%;
 
     transform: translateX(-1000px);
     display: inline-block;
     border: 10px solid whitesmoke;
-    animation: mytejas 20s linear infinite;
+    animation: mytejas 15s linear infinite;
 }
 
 @keyframes mytejas {
